@@ -12,10 +12,10 @@ A pytorch based end2end speech recognition system. The main architecture is [Spe
 4. **End2End**. The feature extraction and tokenization are online. The system directly processes wave file. So, the procedure is much simpified.
 
 ## Dependency
-python >= 3.6
-pytorch >= 1.1
-pyyaml >= 5.1
-tensorflow and tensorboardX for visualization. (if you do not need visualize the results, you can set TENSORBOARD_LOGGING to 0 in src/utils.py)
+* python >= 3.6
+* pytorch >= 1.1
+* pyyaml >= 5.1
+* tensorflow and tensorboardX for visualization. (if you do not need visualize the results, you can set TENSORBOARD_LOGGING to 0 in src/utils.py)
 
 ## Usage
 We use KALDI style example organization. The example directory include top-level shell scripts, data directory, exp directory. We provide an AISHELL-1 example. The path is ROOT/egs/aishell1/s5.
