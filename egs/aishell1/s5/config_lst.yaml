@@ -1,0 +1,58 @@
+data:
+  trainset: exp/train.json
+  devset: exp/dev.json
+  vocab_path: "exp/aishell1_train_chars.txt"
+  maxlen: 60
+  fetchworker_num: 12 
+model:
+  signal:
+    feature_type: fbank
+    sample_rate: 16000
+    num_mel_bins: 80
+    use_energy: False
+    spec_aug:
+        freq_mask_num: 2
+        freq_mask_width: 27
+        time_mask_num: 2
+        time_mask_width: 40
+  encoder:
+    type: Transformer
+    sub:
+      type: ConvV2
+      layer_num: 2
+    input_dim: 80
+    d_model: 512
+    nhead: 8
+    dim_feedforward: 2048
+    activation: "glu"
+    num_layers: 6
+    dropout_rate: 0.1
+  decoder:
+    type: TransformerDecoder
+    vocab_size: -1 # derived by tokenizer
+    d_model: 512
+    nhead: 8
+    num_layers: 6
+    encoder_dim: 512
+    dim_feedforward: 2048
+    activation: "glu"
+    dropout_rate: 0.1
+training:
+    batch_time: 150
+    multi_gpu: False
+    exp_dir: exp/exp1
+    print_inteval: 10
+    num_epoch: 80
+    accumulate_grad_batch: 8
+    init_lr: 1.0
+    optimtype: adam
+    grad_max_norm: 50.
+    label_smooth: 0.1
+    lst:
+      lm_path: "exp/lm_lstm/ep-0030.pt"
+      lst_w: 0.1
+      lst_t: 5.0
+    lr_scheduler:
+        type: "warmup_transformer"
+        warmup_step: 12000
+        d_model: 512

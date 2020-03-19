@@ -1,0 +1,44 @@
+data:
+  trainset: exp/train_text
+  devset: exp/dev_text
+  vocab_path: "exp/aishell1_train_chars.txt"
+  maxlen: 70
+  fetchworker_num: 12 
+model:
+  type: lstm
+  vocab_size: -1 # derived by tokenizer
+  hidden_size: 1024
+  num_layers: 2
+  dropout_rate: 0.1
+training:
+    batch_size: 20
+    multi_gpu: True
+    exp_dir: exp/lm_lstm
+    print_inteval: 10
+    vis_atten: False
+    num_epoch: 20
+    accumulate_grad_batch: 1
+    label_smooth: 0.
+    init_lr: 0.1
+    optimtype: sgd
+    grad_max_norm: 50.
+    lr_scheduler:
+        type: "bob"
+        decay_coef: 0.5 
+        tolerate: 0.1
+ 
+        
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
