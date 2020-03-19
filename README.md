@@ -1,6 +1,8 @@
 # OpenASR
 
-A pytorch based end2end speech recognition system. The main architecture is [Speech-Transformer](https://ieeexplore.ieee.org/abstract/document/8462506/) .
+A pytorch based end2end speech recognition system. The main architecture is [Speech-Transformer](https://ieeexplore.ieee.org/abstract/document/8462506/).
+
+[中文说明](https://github.com/by2101/OpenASR/blob/master/README_zh.md)
 
 ## Features
 
