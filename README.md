@@ -9,21 +9,59 @@ A pytorch based end2end speech recognition system. The main architecture is Spee
 3. **Modular Design**. We divided the system into several modules, such as trainer, metric, schedule, models. It is easy for extension and adding features.
 4. **End2End**. The feature extraction and tokenization are online. So the system directly processes wave file.
 
+## Dependency
+python >= 3.6
+pytorch >= 1.1
+pyyaml >= 5.1
+tensorflow and tensorboardX for visualization. (if you do not need visualize the results, you can set TENSORBOARD_LOGGING to 0 in src/utils.py)
+
 ## Usage
+We use KALDI style example organization. The example directory include top-level shell scripts, data directory, exp directory. We provide an AISHELL-1 example. The path is ROOT/egs/aishell1/s5.
+
 ### Data Preparation
+The data preparation script is prep_data.sh. It will automaticlly download AISHELL-1 dataset, and format it into KALDI style data directory. Then, it will generate json files, and grapheme vocabulary. You can set `corpusdir` for storing dataset.
 
+    bash prep_data.sh
 
+Then, it will generate data directory and exp directory.
 
+### Train Models
+We use yaml files for parameter configuration. We provide 3 examples.
 
-## Results
+    config_base.yaml  # baseline ASR system
+    config_lm_lstm.yaml  # LSTM language model
+    config_lst.yaml  # training ASR with LST
+
+Run train.sh script for training baseline system.
+
+    bash train.sh
+    
+### Model Averaging
+Average checkpoints for improving performance.
+
+    bash avg.sh
+    
+### Decoding and Scoring
+Run decode_test.sh script for decoding test set.
+
+    bash decode_test.sh
+    bash score.sh data/test/text exp/exp1/decode_test_avg-last10
+
+## Visualization
+We provide TensorboardX based visualization. The event files are stored in $expdir/log. You can use tensorboard to visualize the training procedure.
+
+    tensorboard --logdir=$expdir --bind_all
+    
+Then you can see procedures in browser (http://localhost:6006).
+
 
 
 
 
 ## Acknowledgement
-This system is implemented with PyTorch. We use wave reading codes from SciPy. Thanks to Dan Povey's team and their KALDI software. I learn ASR concept, and example organization from KALDI. And thanks to Google Lingvo Team. I learn the modular design from Lingvo.
+This system is implemented with PyTorch. We use wave reading codes from SciPy. We use SCTK software for scoring. Thanks to Dan Povey's team and their KALDI software. I learn ASR concept, and example organization from KALDI. And thanks to Google Lingvo Team. I learn the modular design from Lingvo.
 
-## 
+## Bib
 @article{bai2019learn,
   title={Learn Spelling from Teachers: Transferring Knowledge from Language Models to Sequence-to-Sequence Speech Recognition},
   author={Bai, Ye and Yi, Jiangyan and Tao, Jianhua and Tian, Zhengkun and Wen, Zhengqi},
