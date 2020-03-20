@@ -57,9 +57,9 @@ We provide TensorboardX based visualization. The event files are stored in $expd
 Then you can see procedures in browser (http://localhost:6006).
 
 Examples:
-![per token loss in batch](https://github.com/by2101/OpenASR/raw/master/figs/loss.png)
-![encoder attention](https://github.com/by2101/OpenASR/raw/master/figs/enc_att.png)
-![encoder-decoder attention](https://github.com/by2101/OpenASR/raw/master/figs/dec_enc_att.png)
+![per token loss in batch](https://github.com/by2101/OpenASR/raw/master/figs/loss.png){:height="50%" width="50%"}
+![encoder attention](https://github.com/by2101/OpenASR/raw/master/figs/enc_att.png){:height="50%" width="50%"}
+![encoder-decoder attention](https://github.com/by2101/OpenASR/raw/master/figs/dec_enc_att.png){:height="50%" width="50%"}
 
 
 ## Acknowledgement
