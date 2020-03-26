@@ -1,6 +1,6 @@
 #!/bin/bash
 source path.sh
-expdir=exp/exp1
+expdir=exp/base
 ep=avg-last10
 decode_dir=$expdir/decode_test_${ep}
 mkdir -p $decode_dir
@@ -11,7 +11,7 @@ python -W ignore::UserWarning $MAIN_ROOT/src/decode.py \
     --nbest 5 \
     --use_gpu True \
     $expdir/${ep}.pt \
-    exp/aishell.txt \
+    exp/aishel1_train_chars.txt \
     data/test \
     "file" \
     $decode_dir/hyp.trn
