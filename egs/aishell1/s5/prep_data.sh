@@ -27,6 +27,6 @@ for x in train dev test; do
     python $MAIN_ROOT/src/prepare_data.py --tag file data/$x exp/${x}.json
 done
 echo "Generate vocabulary"
-python $MAIN_ROOT/src/stat_grapheme.py data/train/text exp/aishel1_train_chars.txt
+python $MAIN_ROOT/src/stat_grapheme.py data/train/text exp/aishell1_train_chars.txt
 
 
