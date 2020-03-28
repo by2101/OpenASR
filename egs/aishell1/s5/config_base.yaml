@@ -40,7 +40,7 @@ model:
 training:
     batch_time: 150
     multi_gpu: False
-    exp_dir: exp/exp1
+    exp_dir: exp/base
     print_inteval: 10
     num_epoch: 80
     accumulate_grad_batch: 8
@@ -50,5 +50,5 @@ training:
     label_smooth: 0.1
     lr_scheduler:
         type: "warmup_transformer"
-        warmup_step: 12000
+        warmup_step: 16000
         d_model: 512
