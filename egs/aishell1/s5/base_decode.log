@@ -1,5 +1,5 @@
-2020-03-30 21:50:35,127 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:64] - INFO: Load package from exp/base/ep-0045.pt.
-2020-03-30 21:50:36,707 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:71] - INFO: 
+2020-03-30 21:50:35,127 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:64] - INFO: Load package from exp/base/ep-0045.pt.
+2020-03-30 21:50:36,707 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:71] - INFO: 
 Model info:
 Model(
   (splayer): SPLayer()
@@ -206,9 +206,9 @@ Model(
     (output_affine): Linear(in_features=512, out_features=4233, bias=True)
   )
 )
-2020-03-30 21:50:36,707 - /home/baiye/OpenASR/src/models.py[line:250] - INFO: Restore model states...
-2020-03-30 21:50:48,003 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:90] - INFO: Start feedforward...
-2020-03-30 21:50:49,489 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:36,707 - /home/by2101/OpenASR/src/models.py[line:250] - INFO: Restore model states...
+2020-03-30 21:50:48,003 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:90] - INFO: Start feedforward...
+2020-03-30 21:50:49,489 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0121:
 top1: 甚 至 出 现 交 易 几 乎 停 止 的 情 况 score: -1.8161354065
 top2: 甚 至 出 现 交 易 几 乎 停 滞 的 情 况 score: -2.8520746231
@@ -216,8 +216,8 @@ top3: 甚 至 出 现 交 易 几 乎 停 止 了 情 况 score: -3.8272104263
 top4: 甚 至 出 现 交 易 几 乎 调 整 的 情 况 score: -5.5626416206
 top5: 甚 至 出 现 交 易 几 乎 停 滞 了 情 况 score: -6.0889887810
 
-2020-03-30 21:50:49,489 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 1 utterances in 1.485 s
-2020-03-30 21:50:50,488 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:49,489 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 1 utterances in 1.485 s
+2020-03-30 21:50:50,488 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0122:
 top1: 一 二 线 城 市 虽 然 也 处 于 调 整 中 score: -1.3934774399
 top2: 一 二 线 城 市 孙 杨 也 处 于 调 整 中 score: -3.4023485184
@@ -225,8 +225,8 @@ top3: 一 二 线 城 市 孙 阳 也 处 于 调 整 中 score: -6.3469929695
 top4: 一 二 线 城 市 依 然 也 处 于 调 整 中 score: -6.8223943710
 top5: 一 二 线 城 市 虽 然 也 出 于 调 整 中 score: -7.0899319649
 
-2020-03-30 21:50:50,488 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 2 utterances in 2.484 s
-2020-03-30 21:50:51,489 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:50,488 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 2 utterances in 2.484 s
+2020-03-30 21:50:51,489 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0123:
 top1: 但 因 为 聚 集 了 过 多 公 共 资 源 score: -1.5715856552
 top2: 但 因 为 聚 集 了 过 多 公 共 思 源 score: -3.6406021118
@@ -234,8 +234,8 @@ top3: 但 因 为 聚 集 了 过 多 公 共 四 元 score: -4.1958231926
 top4: 但 因 为 聚 集 了 过 多 公 共 司 员 score: -4.7456755638
 top5: 但 因 为 拒 绝 了 过 多 公 共 资 源 score: -4.7964982986
 
-2020-03-30 21:50:51,490 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 3 utterances in 3.486 s
-2020-03-30 21:50:52,477 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:51,490 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 3 utterances in 3.486 s
+2020-03-30 21:50:52,477 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0124:
 top1: 为 了 规 避 三 四 线 城 市 明 显 过 剩 的 市 场 风 险 score: -1.5112810135
 top2: 为 了 规 避 三 四 线 城 市 明 显 过 胜 的 市 场 风 险 score: -6.5478034019
@@ -243,8 +243,8 @@ top3: 为 了 规 避 三 四 线 城 市 明 显 过 剩 的 市 场 风 现 sc
 top4: 为 了 规 闭 三 四 线 城 市 明 显 过 剩 的 市 场 风 险 score: -6.7998075485
 top5: 为 了 规 避 三 次 线 城 市 明 显 过 剩 的 市 场 风 险 score: -6.9653940201
 
-2020-03-30 21:50:52,478 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 4 utterances in 4.474 s
-2020-03-30 21:50:53,670 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:52,478 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 4 utterances in 4.474 s
+2020-03-30 21:50:53,670 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0125:
 top1: 标 杆 房 企 必 然 调 整 市 场 战 略 score: -1.2184476852
 top2: 标 杆 房 企 必 然 调 整 市 场 策 略 score: -5.4294738770
@@ -252,8 +252,8 @@ top3: 标 杆 房 企 必 然 调 整 市 场 的 战 略 score: -5.6316819191
 top4: 标 准 房 企 必 然 调 整 市 场 战 略 score: -5.8972325325
 top5: 标 杆 房 企 必 然 调 整 市 场 大 跃 score: -7.0259995461
 
-2020-03-30 21:50:53,671 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 5 utterances in 5.667 s
-2020-03-30 21:50:54,698 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:53,671 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 5 utterances in 5.667 s
+2020-03-30 21:50:54,698 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0126:
 top1: 因 此 土 地 储 备 至 关 重 要 score: -1.5152788162
 top2: 因 此 土 地 储 备 直 观 重 要 score: -2.5729951859
@@ -261,8 +261,8 @@ top3: 因 此 土 地 储 备 之 关 重 要 score: -3.3197784424
 top4: 因 此 土 地 储 备 置 关 重 要 score: -5.1346631050
 top5: 因 此 土 地 储 备 之 官 重 要 score: -6.1023716927
 
-2020-03-30 21:50:54,698 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 6 utterances in 6.695 s
-2020-03-30 21:50:55,901 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:54,698 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 6 utterances in 6.695 s
+2020-03-30 21:50:55,901 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0127:
 top1: 中 原 地 产 首 席 分 析 师 张 大 伟 说 score: -1.1358175278
 top2: 中 元 地 产 首 席 分 析 师 张 大 伟 说 score: -6.1328477859
@@ -270,8 +270,8 @@ top3: 中 原 地 产 手 机 分 析 师 张 大 伟 说 score: -6.6685914993
 top4: 中 原 地 场 首 席 分 析 师 张 大 伟 说 score: -6.8094315529
 top5: 中 原 地 产 首 席 分 析 师 张 大 玮 说 score: -7.0437431335
 
-2020-03-30 21:50:55,901 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 7 utterances in 7.898 s
-2020-03-30 21:50:57,289 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:55,901 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 7 utterances in 7.898 s
+2020-03-30 21:50:57,289 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0128:
 top1: 一 线 城 市 土 地 供 应 量 减 少 score: -0.8210105896
 top2: 一 线 城 市 土 地 供 用 量 减 少 score: -5.3575639725
@@ -279,8 +279,8 @@ top3: 一 线 城 市 土 地 供 应 链 减 少 score: -6.8985385895
 top4: 一 些 城 市 土 地 供 应 量 减 少 score: -6.9726257324
 top5: 一 线 城 市 土 地 供 需 量 减 少 score: -6.9961733818
 
-2020-03-30 21:50:57,289 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 8 utterances in 9.286 s
-2020-03-30 21:50:58,541 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:57,289 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 8 utterances in 9.286 s
+2020-03-30 21:50:58,541 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0129:
 top1: 也 助 推 了 土 地 市 场 的 火 爆 score: -0.8998661041
 top2: 也 注 推 了 土 地 市 场 的 火 爆 score: -4.7260103226
@@ -288,8 +288,8 @@ top3: 也 助 推 了 土 地 市 场 的 活 动 score: -4.8095049858
 top4: 也 助 推 了 土 地 市 场 的 活 报 score: -6.2755641937
 top5: 也 助 推 了 土 地 市 场 的 活 爆 score: -6.3123712540
 
-2020-03-30 21:50:58,541 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 9 utterances in 10.538 s
-2020-03-30 21:50:59,809 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:58,541 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 9 utterances in 10.538 s
+2020-03-30 21:50:59,809 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0130:
 top1: 北 京 仅 新 增 住 宅 土 地 供 应 时 松 score: -4.4282484055
 top2: 北 京 仅 新 增 住 宅 土 地 供 应 十 宗 score: -5.1933073997
@@ -297,8 +297,8 @@ top3: 北 京 简 新 增 住 宅 土 地 供 应 时 松 score: -6.4350633621
 top4: 北 京 仅 新 增 住 宅 土 地 供 应 时 宗 score: -6.4487853050
 top5: 北 京 减 薪 增 住 宅 土 地 供 应 时 松 score: -6.8076214790
 
-2020-03-30 21:50:59,810 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 10 utterances in 11.806 s
-2020-03-30 21:51:00,935 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:50:59,810 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 10 utterances in 11.806 s
+2020-03-30 21:51:00,935 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0131:
 top1: 开 发 边 界 将 作 为 城 市 发 展 的 刚 性 约 定 score: -1.4182643890
 top2: 开 发 边 际 将 作 为 城 市 发 展 的 刚 性 约 定 score: -6.1457824707
@@ -306,8 +306,8 @@ top3: 开 发 边 解 将 作 为 城 市 发 展 的 刚 性 约 定 score: -6.
 top4: 开 发 边 界 将 作 为 城 市 发 展 的 刚 性 月 定 score: -7.1161942482
 top5: 开 发 边 界 将 作 为 城 市 发 展 的 纲 性 约 定 score: -7.2151556015
 
-2020-03-30 21:51:00,935 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 11 utterances in 12.932 s
-2020-03-30 21:51:01,966 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
+2020-03-30 21:51:00,935 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 11 utterances in 12.932 s
+2020-03-30 21:51:01,966 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:117] - INFO: 
 Results for BAC009S0764W0132:
 top1: 不 得 超 越 界 限 盲 目 扩 张 score: -0.4009504318
 top2: 不 得 超 越 借 限 盲 目 扩 张 score: -5.7239694595
@@ -315,5 +315,5 @@ top3: 不 的 超 越 界 限 盲 目 扩 张 score: -6.0082988739
 top4: 不 德 超 越 界 限 盲 目 扩 张 score: -6.0330848694
 top5: 不 得 超 越 借 线 盲 目 扩 张 score: -6.4361486435
 
-2020-03-30 21:51:01,966 - /home/baiye/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 12 utterances in 13.963 s
+2020-03-30 21:51:01,966 - /home/by2101/OpenASR/egs/aishell1/s5/../../../src/decode.py[line:119] - INFO: Prossesed 12 utterances in 13.963 s
 decode_test.sh: line 17:  7269 Terminated              CUDA_VISIBLE_DEVICES="1" python -W ignore::UserWarning $MAIN_ROOT/src/decode.py --feed-batchsize 1 --nbest 5 --use_gpu True $expdir/${ep}.pt exp/aishell1_train_chars.txt data/test "file" $decode_dir/hyp.trn
