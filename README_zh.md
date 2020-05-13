@@ -7,7 +7,7 @@
 ## 主要特性
 
 1. **最小依赖**. 系统不依赖其它额外的软件来提取特征或是解码。 用户只需要安装Pytorch即可。
-2. **性能优良**. 系统集成了多个算法，包括Label Smoothing, SpecAugmentation, LST 等。在AISHELL-1数据集上，基线系统CER为7.1。
+2. **性能优良**. 系统集成了多个算法，包括Label Smoothing, SpecAugmentation, LST 等。在AISHELL-1数据集上，基线系统CER为6.6%，好于ESPNet。
 3. **模块化设计**. 系统分为trainer, metric, schedule等模块，方便进一步扩展。
 4. **端到端实现**. 特征提取和token划分采用在线实现。系统可以直接处理wav文件，整个流程大大简化。
 
