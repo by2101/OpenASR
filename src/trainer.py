@@ -283,7 +283,7 @@ class Trainer(object):
         self.metric_summarizer.reset_metrics()
         torch.cuda.empty_cache()
         time.sleep(2)
-        return tot_loss/tot_token
+        return (tot_loss/tot_token).item()
 
 
     def visualize_figure(self):
