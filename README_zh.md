@@ -64,12 +64,6 @@ tensorflow 和 tensorboardX (如果不需要可视化，可以将src/utils.py中
 ## 致谢
 系统是基于PyTorch实现的。我们采用了SciPy里的读取wav文件的代码。我们使用了SCTK来计算CER。感谢Dan Povey团队和他们的KALDI，ASR的概念，例子的组织是从KALDI里学到的。感谢Google的Lingvo团队，模块化设计从Lingvo里学了很多。
 
-## Bib
-@article{bai2019learn,
-  title={Learn Spelling from Teachers: Transferring Knowledge from Language Models to Sequence-to-Sequence Speech Recognition},
-  author={Bai, Ye and Yi, Jiangyan and Tao, Jianhua and Tian, Zhengkun and Wen, Zhengqi},
-  year={2019}
-}
 
 ## 引用
 Dong, Linhao, Shuang Xu, and Bo Xu. "Speech-transformer: a no-recurrence sequence-to-sequence model for speech recognition." 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2018.
